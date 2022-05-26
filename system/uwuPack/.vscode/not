@@ -1,0 +1,45 @@
+
+
+| string |  int | float | başka türe dönüştür
+veri atama
+kullanıcıdan veri alma
+matematik
+çıktı alma
+
+koşullar
+if else
+switch case
+while   | continue ve break
+for
+
+array
+
+
+
+
+
+    // char numberint = 20;
+    // short numberShort = 15;          
+    // long numberLong = 30;
+    // double numberDouble = 160.555;
+    // float numberFloat = 15.51;
+    // char  strChar[9] = "GnuChanOS";
+
+    // printf("int number %d \n", numberint,numberShort,numberLong);
+    // printf("float:%.1f | Double:%.2f \n", numberFloat,numberDouble);
+    // printf("String:%s \n", strChar);
+    // printf("size double:%d, | size float:%d", sizeof(numberDouble), sizeof(numberFloat));
+
+    // printf("%d yapar \n", 10+30); # temel matematik
+    // printf("%d yapar \n", 80/2);
+    // printf("%d yapar \n", 41-1);
+    // printf("%d yapar \n", 20*2);
+
+    // int math1 = numberint += 10;
+    // int math2 = numberFloat -= 1.5;
+    // int math3 = numberDouble *= 5.12;
+    // int math4 = numberLong /= 1;
+    // printf("%d \n%f \n%f \n%d", math1, math2, math3, math4); # son işlemin çıktısı
+
+    // printf("doulbe:>%d \n", (int)numberDouble); # değer çeviri
+    // printf("int:>%f \n", (float)numberint);

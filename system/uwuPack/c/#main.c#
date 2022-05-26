@@ -1,0 +1,62 @@
+#include <stdio.h>
+
+int main(){
+    // char numberint = 20;
+    // short numberShort = 15;          
+    // long numberLong = 30;
+    // double numberDouble = 160.555;
+    // float numberFloat = 15.51;
+    // char  strChar[9] = "GnuChanOS";
+
+    // printf("int number %d \n", numberint,numberShort,numberLong);
+    // printf("float:%.1f | Double:%.2f \n", numberFloat,numberDouble);
+    // printf("String:%s \n", strChar);
+    // printf("size double:%d, | size float:%d", sizeof(numberDouble), sizeof(numberFloat));
+
+    // printf("%d yapar \n", 10+30); # temel matematik
+    // printf("%d yapar \n", 80/2);
+    // printf("%d yapar \n", 41-1);
+    // printf("%d yapar \n", 20*2);
+
+    // int math1 = numberint += 10;
+    // int math2 = numberFloat -= 1.5;
+    // int math3 = numberDouble *= 5.12;
+    // int math4 = numberLong /= 1;
+    // printf("%d \n%f \n%f \n%d", math1, math2, math3, math4); # son işlemin çıktısı
+
+    // printf("doulbe:>%d \n", (int)numberDouble); # değer çeviri
+    // printf("int:>%f \n", (float)numberint);
+
+    int number1;
+    int number2;
+    char islem[10];
+
+    // printf("numara1:> ");
+    // scanf("%d", number1);
+    // printf("işlem | + | - | / | * | :> ");
+    // scanf("%s", islem);
+    // printf("numara2:>");
+    // scanf("%d", number2);
+
+    printf("number1+number2:> ");
+    scanf("%d %s %d",number1,islem,number2);
+
+
+    if (islem == "+"){
+        printf("%d", number1 + number2);
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
