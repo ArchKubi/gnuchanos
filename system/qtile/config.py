@@ -65,7 +65,6 @@ keys = [#-:---------------------------------------------------------------------
 #-:-------------------------------------------------------------------------:-#
     Key([mod], "s", lazy.spawn("scrot")),
     Key([], "Print", lazy.spawn("scrot")),
-    Key([mod], "e", lazy.spawn("emacs")),
     Key([mod], "v", lazy.spawn("vscodium")),
     Key([mod, "shift"], "s", lazy.spawn("scrot -s")),
     Key([mod, "shift"], "z", lazy.spawn("lxappearance")),
@@ -105,8 +104,8 @@ for i in groups:
 
 #####################################################################################################################
 layouts = [
-    layout.Columns(margin=14, border_width=6, border_focus="#9d4edd", border_normal="#240046"),
-    #layout.MonadTall(margin=8, border_width=6, border_focus="#08000d", border_normal="#08000d"),
+    layout.Columns(margin=8, border_width=6, border_focus="#9d4edd", border_normal="#240046"),
+    #layout.MonadTall(margin=8, border_width=6, border_focus="#9d4edd", border_normal="#240046"),
     layout.Max(),
 ]
 #####################################################################################################################
@@ -126,12 +125,9 @@ colors = [["#240046", "#240046"], # 0: background color
           ["#9d4edd", "#9d4edd"], # 2: text color
           ["#c77dff", "#c77dff"], # 3: inactive and not update text color
           ["#3c096c", "#3c096c"] # 4: other widget back ground
-
-
-
-
           ]
-prompt = "{0}@{1}: ".format(os.environ["USER"], socket.gethostname())
+
+# prompt = "{0}@{1}: ".format(os.environ["USER"], socket.gethostname())
 #####################################################################################################################
 
 ###### Not Working:
@@ -275,7 +271,7 @@ float_rules=[
 
 
 #####################################################################################################################
-#os.popen("sh ~/.config/qtile/display.sh")
+os.popen("sh ~/.config/qtile/display.sh")
 os.popen("sh ~/.config/qtile/autostart.sh")
 #####################################################################################################################
 
